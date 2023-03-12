@@ -1,5 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <svg class="icon" aria-hidden="true">
+    <use xlink:href="#icon-liebiao"></use>
+</svg>
   </div>
 </template>
