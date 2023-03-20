@@ -5,3 +5,9 @@ export function getBanner() {
         url:'/banner?type=2'
     })
 }
+export function getMusicList(){
+    return service({
+        method:'get',
+        url:'/personalized?limit=10'
+    })
+}
